@@ -1,0 +1,6 @@
+@mixin ellipse {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
