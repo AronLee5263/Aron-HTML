@@ -2,12 +2,12 @@
 
 
 - working drectory, staging arar.....
--branch
--commmit
--conflict 해결방법, merge
+- branch
+- commmit
+- conflict 해결방법, merge
 
 
-<code>
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,4 +21,4 @@
 
 </body>
 </html>
-</code>
+```
