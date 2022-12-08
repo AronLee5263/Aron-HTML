@@ -221,6 +221,14 @@ textarea::-ms-reveal {
 }
 .menu-category-area .common-inner::after {
   content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 18px;
+  height: 100%;
+  background-image: linear-gradient(to left, red, rgba(255, 255, 255, 0));
+  pointer-events: none;
+  z-index: 1;
 }
 .menu-category-area .category-list {
   display: flex;
