@@ -15,12 +15,20 @@
             left: 0;
             width: $m-padding;
             height: 100%;
-            background-image: linear-gradient(to right, red , rgba(255,255,255,0));
+            background-image: linear-gradient(to right, #fff 25%, rgba(255,255,255,0));
             pointer-events: none;
             z-index: 1;
         }
         &::after {
             content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: $m-padding;
+            height: 100%;
+            background-image: linear-gradient(to right, rgba(255,255,255,0) 25%, #fff);
+            pointer-events: none;
+            z-index: 1;
         }
     }
 

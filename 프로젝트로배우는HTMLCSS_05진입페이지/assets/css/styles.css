@@ -215,12 +215,20 @@ textarea::-ms-reveal {
   left: 0;
   width: 18px;
   height: 100%;
-  background-image: linear-gradient(to right, red, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #fff 25%, rgba(255, 255, 255, 0));
   pointer-events: none;
   z-index: 1;
 }
 .menu-category-area .common-inner::after {
   content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 18px;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, #fff);
+  pointer-events: none;
+  z-index: 1;
 }
 .menu-category-area .category-list {
   display: flex;
@@ -246,6 +254,10 @@ textarea::-ms-reveal {
   background-color: #424242;
   font-weight: 700;
   color: #fff;
+}
+
+.menu-list-area {
+  padding: 28px 18px 10px;
 }
 
 .dimmed-layer {
