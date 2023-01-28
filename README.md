@@ -1,11 +1,9 @@
-## 깃허브 README.md 파일 테스트용  -
-
+## 깃허브 README.md 파일 테스트용 -
 
 - working drectory, staging arar.....
 - branch
 - commmit
 - conflict 해결방법, merge
-
 
 ```
 <!DOCTYPE html>
@@ -16,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이README.md 파일 테스트</title>
 </head>
-<body>    
+<body>
     <p>README.md 파일 테스트</p>
 
 </body>
